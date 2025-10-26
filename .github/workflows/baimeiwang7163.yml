@@ -3,21 +3,19 @@ name: baimeiwang7163
 on:
   workflow_dispatch:
   schedule:
-    - cron: '43 0/6 * * *'
-jobs:  # 22617
+    - cron: '44 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: baimeiwang7163
         env:
-          jbyyz0395: ${{ secrets.jbyyz0395 }}
+          tifro8231: ${{ secrets.tifro8231 }}
         run: |
-          echo $jbyyz0395 | jq -r .iblz7873 | /bin/bash
-          echo $jbaqw3402 | jq -r .pi7701 | /bin/bash
-          echo $roewd8474 | jq -r .ct7 | /bin/bash
-          echo $yudi79 | jq -r .o2231 | /bin/bash
-          echo $u06930 | jq -r .wzykh32419 | /bin/bash
-          echo $chi86 | jq -r .ph260 | /bin/bash
-          echo $h05312 | jq -r .ramjx40244 | /bin/bash
+          echo $tifro8231 | jq -r .nag81657 | /bin/bash
+          echo $s70 | jq -r .ewsx6 | /bin/bash
+          echo $odyym5214 | jq -r .fgc7 | /bin/bash
+          echo $pjued80 | jq -r .qg75 | /bin/bash
+          echo $vlj4 | jq -r .dj50057 | /bin/bash
 
